@@ -1,4 +1,5 @@
 require('./check-versions')()
+require('./create-posts-json')('./posts');
 
 process.env.NODE_ENV = 'production'
 

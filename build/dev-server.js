@@ -1,4 +1,5 @@
 require('./check-versions')()
+require('./create-posts-json')('./posts')
 
 var config = require('../config')
 if (!process.env.NODE_ENV) {
