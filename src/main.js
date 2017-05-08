@@ -16,6 +16,8 @@ router.beforeEach((to, from, next) => {
   next();
 });
 
+window.document.title = process.env.WEBSITE_TITLE;
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

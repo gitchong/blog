@@ -3,6 +3,7 @@ var fs = require('fs');
 var path = require('path');
 var Client = require('ftp');
 var async = require('async');
+var config = require('../config/prod.env');
 var client = new Client();
 
 client.on('ready', function() {
@@ -21,7 +22,7 @@ client.on('ready', function() {
 });
 
 client.connect({
-  host: '域名',
-  user: '账号',
-  password: '密码',
+  host: config.FTP_HOST,
+  user: config.FTP_USER,
+  password: config.FTP_PASSWORD,
 });
