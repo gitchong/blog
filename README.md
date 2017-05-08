@@ -1,30 +1,18 @@
-# blog
+# BIGTIGER.ME BLOG 
+轻量的静态博客
 
-> my blog
+### 使用
 
-## Build Setup
+1. 拷贝一份到你的本地
+2. 在目录下 `npm i`
+3. 在posts文件夹下面写`.md` 文件
+4. 打包 `npm run build`
+5. 将打包的文件扔到服务器
 
-``` bash
-# install dependencies
-npm install
+### 更新文章
 
-# serve with hot reload at localhost:8080
-npm run dev
+1. 在config/prod.env.js 配置ftp
+2. 执行 `npm run release`
 
-# build for production with minification
-npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
 
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
