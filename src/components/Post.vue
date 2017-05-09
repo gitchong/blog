@@ -66,7 +66,7 @@
   };
 </script>
 
-<style scoped>
+<style>
   .gutter pre {
     color: #999;
   }
