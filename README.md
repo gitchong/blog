@@ -1,6 +1,11 @@
 # BIGTIGER.ME BLOG 
 简单的前端静态博客
 
+### 特别注意
+
+  请在开始前在跟目录下创建一个 `static` 文件夹。用来解决#[#1](https://github.com/liujinyang1994/Blog/issues/1)。
+  后续我将完善这部分的构建流程。
+
 ### 使用
 
 1. 拷贝一份代码到你的本地
