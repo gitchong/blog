@@ -1,5 +1,5 @@
 ---
-title: This is a test post
+title: 本博客支持的Markdown示例
 author: Jinyang Liu.
 date: "2017-05-07 2:00"
 tags:
@@ -14,11 +14,7 @@ tags:
 > 不過最需要強調的便是它的可讀性。一份使用 Markdown 格式撰寫的文件應該可以直接以純文字發佈，並且看起來不會像是由許多標籤或是格式指令所構成。
 > Markdown 的語法有個主要的目的：用來作為一種網路內容的*寫作*用語言。
 
-<!-- more -->
-
-## 本文约定
-
-如果有写 `效果如下：`， 在 MWeb 编辑状态下只有用 `CMD + 4` 或 `CMD + R` 预览才可以看效果。
+<!-- more -->(暂不支持)
 
 ## 标题
 
@@ -105,7 +101,7 @@ Markdown 语法：
 1. 项目三的子项目一 有序列表 `TAB + 数字 + . + 空格键`
 2. 项目三的子项目二
 
-### 任务列表（Task lists）
+### 任务列表（Task lists）(暂不支持)
 
 Markdown 语法：
 
@@ -134,7 +130,7 @@ Markdown 语法：
 
 ![GitHub set up](http://zh.mweb.im/asset/img/set-up-git.gif)
 
-MWeb 引入的特别的语法来设置图片宽度，方法是在图片描述后加 `-w + 图片宽度` 即可，比如说要设置上面的图片的宽度为 140，语法如下：
+(暂不支持)引入的特别的语法来设置图片宽度，方法是在图片描述后加 `-w + 图片宽度` 即可，比如说要设置上面的图片的宽度为 140，语法如下：
 
 ![GitHub set up-w140](http://zh.mweb.im/asset/img/set-up-git.gif)
 
@@ -211,7 +207,7 @@ function fancyAlert(arg) {
 }
 ```
 
-## 顺序图或流程图
+## 顺序图或流程图(暂不支持)
 
 Markdown 语法：
 
@@ -305,7 +301,7 @@ Markdown 语法：
 
 
 
-## MathJax
+## MathJax (暂不支持)
 
 Markdown 语法：
 
@@ -348,7 +344,7 @@ Markdown 语法：
 [^sample_footnote]: 这里是脚注信息
 
 
-## 注释和阅读更多
+## 注释和阅读更多 (暂不支持)
 
 <!-- comment -->
 <!-- more -->
@@ -356,7 +352,7 @@ Markdown 语法：
 Actions->Insert Read More Comment *或者* `Command + .`
 **注** 阅读更多的功能只用在生成网站或博客时，插入时注意要后空一行。
 
-## TOC
+## TOC (暂不支持)
 
 Markdown 语法：
 

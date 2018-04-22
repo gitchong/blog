@@ -259,7 +259,7 @@
     font-size: 13px;
     overflow-x: auto;
     text-align: left;
-    padding: 15px 25px;
+    padding: 15px 10px;
     background-color: #f6f6f6;
     line-height: 1.5em;
   }

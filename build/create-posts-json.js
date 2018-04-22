@@ -1,7 +1,8 @@
 var fs = require('fs');
 var path = require('path');
 var m2j = require('markdown-to-json');
-var markdown = require('markdown').markdown;
+var hljs = require('highlight.js');
+var md = require('markdown-it')().use(require('markdown-it-highlightjs'));
 
 var list = function (filePaths) {
   var results = m2j.parse(filePaths, {
@@ -36,7 +37,7 @@ var posts = function (filenames) {
 
     results = JSON.parse(results);
     results = results[filename.replace('.md', '')];
-    results.content = markdown.toHTML(results.content);
+    results.content = md.render(results.content);
 
     fs.writeFile(`static/posts/${filename.replace('.md', '.json')}`, JSON.stringify(results));
     filePaths.push(`posts/${filename}`);
